@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\Leon-CWHxdPya.jpg",
+      "PackagePath": "staticwebassets\\assets\\Leon-CWHxdPya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\background.jpg",
+      "PackagePath": "staticwebassets\\assets\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-BGfbudG9.js",
+      "PackagePath": "staticwebassets\\assets\\index-BGfbudG9.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-B_xEoDth.js",
+      "PackagePath": "staticwebassets\\assets\\index-B_xEoDth.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-BxwZpOhy.js",
+      "PackagePath": "staticwebassets\\assets\\index-BxwZpOhy.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-C6T2l6CL.css",
+      "PackagePath": "staticwebassets\\assets\\index-C6T2l6CL.css"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-CFgSYdAn.js",
+      "PackagePath": "staticwebassets\\assets\\index-CFgSYdAn.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-CMh0Aqqk.js",
+      "PackagePath": "staticwebassets\\assets\\index-CMh0Aqqk.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-C_76KxUB.css",
+      "PackagePath": "staticwebassets\\assets\\index-C_76KxUB.css"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-Co2PBUqC.js",
+      "PackagePath": "staticwebassets\\assets\\index-Co2PBUqC.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-D3UPfb9z.css",
+      "PackagePath": "staticwebassets\\assets\\index-D3UPfb9z.css"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-DS0fOIzJ.js",
+      "PackagePath": "staticwebassets\\assets\\index-DS0fOIzJ.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-DVrQuAlJ.css",
+      "PackagePath": "staticwebassets\\assets\\index-DVrQuAlJ.css"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-DkXAATEw.js",
+      "PackagePath": "staticwebassets\\assets\\index-DkXAATEw.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-DzQjRZM7.js",
+      "PackagePath": "staticwebassets\\assets\\index-DzQjRZM7.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\index-E3Q8Bhny.js",
+      "PackagePath": "staticwebassets\\assets\\index-E3Q8Bhny.js"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\assets\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\background.jpg",
+      "PackagePath": "staticwebassets\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\tree.png",
+      "PackagePath": "staticwebassets\\tree.png"
+    },
+    {
+      "Id": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApiPaulovnija.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApiPaulovnija.props",
+      "PackagePath": "build\\WebApiPaulovnija.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApiPaulovnija.props",
+      "PackagePath": "buildMultiTargeting\\WebApiPaulovnija.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApiPaulovnija.props",
+      "PackagePath": "buildTransitive\\WebApiPaulovnija.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

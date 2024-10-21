@@ -1,0 +1,827 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\controllers\\sadnicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:controllers\\sadnicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\controllers\\radnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:controllers\\radnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\paulovnija zavrsni rad sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:paulovnija zavrsni rad sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\paulovnijacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:paulovnijacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\zadatakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\zadatakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\strojservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\strojservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\sadnicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\sadnicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\rasadnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\rasadnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\radnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\radnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\izadaciservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\izadaciservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\istrojeviservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\istrojeviservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\isadnicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\isadnicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\irasadnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\irasadnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\service\\iradnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:service\\iradnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\mapping\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:mapping\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\zadatakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\zadatakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\strojdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\strojdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\sadnicadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\sadnicadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\rasadnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\rasadnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\radnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\radnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\kreirajzadatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\kreirajzadatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\kreirajstrojdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\kreirajstrojdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\kreirajsadnicudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\kreirajsadnicudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\kreirajrasadnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\kreirajrasadnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\kreirajradnikadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\kreirajradnikadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\azurirajstrojdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\azurirajstrojdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\azurirajzadatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\azurirajzadatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\azurirajsadnicudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\azurirajsadnicudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\azurirajrasadnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\azurirajrasadnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\dto\\azurirajradnikadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:dto\\azurirajradnikadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\controllers\\zadatakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:controllers\\zadatakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\controllers\\strojevicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:controllers\\strojevicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\controllers\\rasadnicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:controllers\\rasadnicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\models1\\strojevi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:models1\\strojevi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\models1\\zadaci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:models1\\zadaci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\models1\\radnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:models1\\radnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\models1\\rasadnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:models1\\rasadnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\models1\\radnici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:models1\\radnici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\models1\\sadnice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:models1\\sadnice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lekil\\Documents\\GitHub\\UcenjeWP4\\Zavrsni rad\\Paulovnija zavrsni rad sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\webapipaulovnija.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:webapipaulovnija.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\webapipaulovnija.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:webapipaulovnija.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\webapipaulovnija.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:webapipaulovnija.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|c:\\users\\lekil\\documents\\github\\zavrsni\\zavrsni-rad\\webapipaulovnija\\paulovnija zavrsni rad sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{9CBFECEF-F98E-41D4-AA8E-FB40E61FA331}|WebApiPaulovnija.csproj|solutionrelative:paulovnija zavrsni rad sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KreirajSadnicuDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajSadnicuDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\KreirajSadnicuDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajSadnicuDTO.cs",
+              "RelativeToolTip": "DTO\\KreirajSadnicuDTO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwAUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:43:31.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AzurirajSadnicuDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajSadnicuDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AzurirajSadnicuDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajSadnicuDTO.cs",
+              "RelativeToolTip": "DTO\\AzurirajSadnicuDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:43:17.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KreirajRasadnikDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajRasadnikDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\KreirajRasadnikDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajRasadnikDTO.cs",
+              "RelativeToolTip": "DTO\\KreirajRasadnikDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:41:59.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AzurirajRasadnikDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajRasadnikDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AzurirajRasadnikDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajRasadnikDTO.cs",
+              "RelativeToolTip": "DTO\\AzurirajRasadnikDTO.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvx8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:41:46.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KreirajStrojDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajStrojDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\KreirajStrojDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajStrojDTO.cs",
+              "RelativeToolTip": "DTO\\KreirajStrojDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:40:43.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AzurirajStrojDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajStrojDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AzurirajStrojDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajStrojDTO.cs",
+              "RelativeToolTip": "DTO\\AzurirajStrojDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:34:36.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RasadnikService.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\RasadnikService.cs",
+              "RelativeDocumentMoniker": "Service\\RasadnikService.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\RasadnikService.cs*",
+              "RelativeToolTip": "Service\\RasadnikService.cs*",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:47:05.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRasadnikService.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IRasadnikService.cs",
+              "RelativeDocumentMoniker": "Service\\IRasadnikService.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IRasadnikService.cs",
+              "RelativeToolTip": "Service\\IRasadnikService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:45:31.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RasadniciController.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\RasadniciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RasadniciController.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\RasadniciController.cs",
+              "RelativeToolTip": "Controllers\\RasadniciController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:40:18.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SadniceController.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\SadniceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SadniceController.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\SadniceController.cs",
+              "RelativeToolTip": "Controllers\\SadniceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:40:01.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StrojeviController.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\StrojeviController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StrojeviController.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\StrojeviController.cs*",
+              "RelativeToolTip": "Controllers\\StrojeviController.cs*",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAAEUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:39:46.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sadnicaservice.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\Sadnicaservice.cs",
+              "RelativeDocumentMoniker": "Service\\Sadnicaservice.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\Sadnicaservice.cs*",
+              "RelativeToolTip": "Service\\Sadnicaservice.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:38:50.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Isadnicaservice.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\Isadnicaservice.cs",
+              "RelativeDocumentMoniker": "Service\\Isadnicaservice.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\Isadnicaservice.cs*",
+              "RelativeToolTip": "Service\\Isadnicaservice.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:38:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StrojService.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\StrojService.cs",
+              "RelativeDocumentMoniker": "Service\\StrojService.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\StrojService.cs*",
+              "RelativeToolTip": "Service\\StrojService.cs*",
+              "ViewState": "AQIAACAAAAAAAAAAAAAWwCYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:38:10.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IStrojeviservice.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IStrojeviservice.cs",
+              "RelativeDocumentMoniker": "Service\\IStrojeviservice.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IStrojeviservice.cs",
+              "RelativeToolTip": "Service\\IStrojeviservice.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:37:39.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Rasadnik.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Rasadnik.cs",
+              "RelativeDocumentMoniker": "Models1\\Rasadnik.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Rasadnik.cs",
+              "RelativeToolTip": "Models1\\Rasadnik.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:32:48.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Strojevi.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Strojevi.cs",
+              "RelativeDocumentMoniker": "Models1\\Strojevi.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Strojevi.cs",
+              "RelativeToolTip": "Models1\\Strojevi.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:32:35.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Sadnice.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Sadnice.cs",
+              "RelativeDocumentMoniker": "Models1\\Sadnice.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Sadnice.cs",
+              "RelativeToolTip": "Models1\\Sadnice.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwAEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:31:54.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RasadnikDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\RasadnikDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\RasadnikDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\RasadnikDTO.cs",
+              "RelativeToolTip": "DTO\\RasadnikDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:30:03.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StrojDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\StrojDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\StrojDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\StrojDTO.cs",
+              "RelativeToolTip": "DTO\\StrojDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:29:41.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SadnicaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\SadnicaDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\SadnicaDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\SadnicaDTO.cs",
+              "RelativeToolTip": "DTO\\SadnicaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:29:21.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IzadaciService.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IzadaciService.cs",
+              "RelativeDocumentMoniker": "Service\\IzadaciService.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IzadaciService.cs",
+              "RelativeToolTip": "Service\\IzadaciService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T07:24:26.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paulovnija zavrsni rad sql.sql ",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Paulovnija zavrsni rad sql.sql",
+              "RelativeDocumentMoniker": "Paulovnija zavrsni rad sql.sql",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Paulovnija zavrsni rad sql.sql",
+              "RelativeToolTip": "Paulovnija zavrsni rad sql.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-09T18:07:45.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RadnikDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\RadnikDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\RadnikDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\RadnikDTO.cs",
+              "RelativeToolTip": "DTO\\RadnikDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:01:19.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "KreirajZadatak.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajZadatak.cs",
+              "RelativeDocumentMoniker": "DTO\\KreirajZadatak.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajZadatak.cs*",
+              "RelativeToolTip": "DTO\\KreirajZadatak.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:48:35.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:11:56.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ZadatakService.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\ZadatakService.cs",
+              "RelativeDocumentMoniker": "Service\\ZadatakService.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\ZadatakService.cs",
+              "RelativeToolTip": "Service\\ZadatakService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:54:17.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ZadatakController.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\ZadatakController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ZadatakController.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\ZadatakController.cs*",
+              "RelativeToolTip": "Controllers\\ZadatakController.cs*",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwEUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:51:44.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ZadatakDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\ZadatakDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ZadatakDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\ZadatakDTO.cs",
+              "RelativeToolTip": "DTO\\ZadatakDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:53:13.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RadnikService.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\RadnikService.cs",
+              "RelativeDocumentMoniker": "Service\\RadnikService.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\RadnikService.cs",
+              "RelativeToolTip": "Service\\RadnikService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:25:25.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaulovnijaContext.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\PaulovnijaContext.cs",
+              "RelativeDocumentMoniker": "PaulovnijaContext.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\PaulovnijaContext.cs",
+              "RelativeToolTip": "PaulovnijaContext.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAACIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T15:45:49.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "KreirajRadnikaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajRadnikaDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\KreirajRadnikaDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\KreirajRadnikaDTO.cs",
+              "RelativeToolTip": "DTO\\KreirajRadnikaDTO.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:12:33.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Mapping\\Mapping.cs",
+              "RelativeDocumentMoniker": "Mapping\\Mapping.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Mapping\\Mapping.cs",
+              "RelativeToolTip": "Mapping\\Mapping.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:20:09.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Zadaci.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Zadaci.cs",
+              "RelativeDocumentMoniker": "Models1\\Zadaci.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Zadaci.cs",
+              "RelativeToolTip": "Models1\\Zadaci.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:57:20.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AzurirajZadatak.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajZadatak.cs",
+              "RelativeDocumentMoniker": "DTO\\AzurirajZadatak.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajZadatak.cs*",
+              "RelativeToolTip": "DTO\\AzurirajZadatak.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:49:11.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRadnikService.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IRadnikService.cs",
+              "RelativeDocumentMoniker": "Service\\IRadnikService.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Service\\IRadnikService.cs",
+              "RelativeToolTip": "Service\\IRadnikService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:28:46.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RadnikController.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\RadnikController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RadnikController.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Controllers\\RadnikController.cs*",
+              "RelativeToolTip": "Controllers\\RadnikController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:37:09.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Radnik.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Radnik.cs",
+              "RelativeDocumentMoniker": "Models1\\Radnik.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Radnik.cs",
+              "RelativeToolTip": "Models1\\Radnik.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:39:29.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Radnici.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Radnici.cs",
+              "RelativeDocumentMoniker": "Models1\\Radnici.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Models1\\Radnici.cs",
+              "RelativeToolTip": "Models1\\Radnici.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:39:00.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AzurirajRadnikaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajRadnikaDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AzurirajRadnikaDTO.cs",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\DTO\\AzurirajRadnikaDTO.cs",
+              "RelativeToolTip": "DTO\\AzurirajRadnikaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:12:52.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WebApiPaulovnija",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\WebApiPaulovnija.csproj",
+              "RelativeDocumentMoniker": "WebApiPaulovnija.csproj",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\WebApiPaulovnija.csproj",
+              "RelativeToolTip": "WebApiPaulovnija.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-03T15:31:20.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T18:02:27.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T15:31:29.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WebApiPaulovnija.http",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\WebApiPaulovnija.http",
+              "RelativeDocumentMoniker": "WebApiPaulovnija.http",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\WebApiPaulovnija.http",
+              "RelativeToolTip": "WebApiPaulovnija.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-09T18:00:21.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WebApiPaulovnija.csproj",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\WebApiPaulovnija.csproj",
+              "RelativeDocumentMoniker": "WebApiPaulovnija.csproj",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\WebApiPaulovnija.csproj",
+              "RelativeToolTip": "WebApiPaulovnija.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T16:57:30.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T16:49:12.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\Zavrsni\\Zavrsni-rad\\WebApiPaulovnija\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-09T18:26:07.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Paulovnija zavrsni rad sql.sql",
+              "DocumentMoniker": "C:\\Users\\lekil\\Documents\\GitHub\\UcenjeWP4\\Zavrsni rad\\Paulovnija zavrsni rad sql.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\UcenjeWP4\\Zavrsni rad\\Paulovnija zavrsni rad sql.sql",
+              "ToolTip": "C:\\Users\\lekil\\Documents\\GitHub\\UcenjeWP4\\Zavrsni rad\\Paulovnija zavrsni rad sql.sql",
+              "RelativeToolTip": "..\\..\\..\\UcenjeWP4\\Zavrsni rad\\Paulovnija zavrsni rad sql.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-09T18:06:50.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1370 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiPaulovnija</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiPaulovnija.Controllers.RadnikController.Get">
+            <summary>
+            Vraća sve radnike iz baze podataka.
+            </summary>
+            <returns>Lista radnika u formatu RadnikDTO.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RadnikController.GetById(System.Int32)">
+            <summary>
+            Vraća radnika po ID-u.
+            </summary>
+            <param name="id">ID radnika.</param>
+            <returns>Radnik sa traženim ID-em u formatu RadnikDTO.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RadnikController.Post(WebApiPaulovnija.DTO.KreirajRadnikaDTO)">
+            <summary>
+            Dodaje novog radnika u bazu podataka.
+            </summary>
+            <param name="dto">DTO objekt radnika koji se dodaje.</param>
+            <returns>Status rezultata unosa.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RadnikController.Put(System.Int32,WebApiPaulovnija.DTO.AzurirajRadnikaDTO)">
+            <summary>
+            Ažurira radnika u bazi podataka.
+            </summary>
+            <param name="id">ID radnika koji se ažurira.</param>
+            <param name="dto">DTO objekt sa novim podacima radnika.</param>
+            <returns>Status ažuriranja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RadnikController.Delete(System.Int32)">
+            <summary>
+            Briše radnika iz baze podataka.
+            </summary>
+            <param name="id">ID radnika koji se briše.</param>
+            <returns>Status brisanja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RasadniciController.GetRasadnici">
+            <summary>
+            Vraća sve rasadnike iz baze podataka.
+            </summary>
+            <returns>Lista rasadnika.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RasadniciController.GetRasadnik(System.Int32)">
+            <summary>
+            Vraća rasadnik po ID-u.
+            </summary>
+            <param name="id">ID rasadnika.</param>
+            <returns>Rasadnik sa traženim ID-em.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RasadniciController.CreateRasadnik(WebApiPaulovnija.DTO.KreirajRasadnikDTO)">
+            <summary>
+            Dodaje novog rasadnika u bazu podataka.
+            </summary>
+            <param name="rasadnikDTO">DTO objekt rasadnika koji se dodaje.</param>
+            <returns>Status rezultata unosa.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RasadniciController.UpdateRasadnik(System.Int32,WebApiPaulovnija.DTO.AzurirajRasadnikDTO)">
+            <summary>
+            Ažurira postojeći rasadnik u bazi podataka.
+            </summary>
+            <param name="id">ID rasadnika koji se ažurira.</param>
+            <param name="rasadnikDTO">DTO objekt sa novim podacima rasadnika.</param>
+            <returns>Status ažuriranja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.RasadniciController.DeleteRasadnik(System.Int32)">
+            <summary>
+            Briše rasadnik iz baze podataka.
+            </summary>
+            <param name="id">ID rasadnika koji se briše.</param>
+            <returns>Status brisanja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.SadniceController.GetAll">
+            <summary>
+            Vraća sve sadnice iz baze podataka.
+            </summary>
+            <returns>Lista sadnica.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.SadniceController.GetById(System.Int32)">
+            <summary>
+            Vraća sadnicu po ID-u.
+            </summary>
+            <param name="id">ID sadnice.</param>
+            <returns>Sadnica sa traženim ID-em.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.SadniceController.Create(WebApiPaulovnija.DTO.KreirajSadnicuDTO)">
+            <summary>
+            Dodaje novu sadnicu u bazu podataka.
+            </summary>
+            <param name="sadnicaDTO">DTO objekt sadnice koji se dodaje.</param>
+            <returns>Status rezultata unosa.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.SadniceController.Update(System.Int32,WebApiPaulovnija.DTO.AzurirajSadnicuDTO)">
+            <summary>
+            Ažurira postojeću sadnicu u bazi podataka.
+            </summary>
+            <param name="id">ID sadnice koji se ažurira.</param>
+            <param name="sadnicaDTO">DTO objekt sa novim podacima sadnice.</param>
+            <returns>Status ažuriranja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.SadniceController.Delete(System.Int32)">
+            <summary>
+            Briše sadnicu iz baze podataka.
+            </summary>
+            <param name="id">ID sadnice koji se briše.</param>
+            <returns>Status brisanja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.StrojeviController.GetAll">
+            <summary>
+            Vraća sve strojeve iz baze podataka.
+            </summary>
+            <returns>Lista strojeva.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.StrojeviController.GetById(System.Int32)">
+            <summary>
+            Vraća stroj po ID-u.
+            </summary>
+            <param name="id">ID stroja.</param>
+            <returns>Stroj sa traženim ID-em.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.StrojeviController.Create(WebApiPaulovnija.DTO.KreirajStrojDTO)">
+            <summary>
+            Dodaje novi stroj u bazu podataka.
+            </summary>
+            <param name="kreirajStrojDTO">DTO objekt za novi stroj.</param>
+            <returns>Status rezultata unosa.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.StrojeviController.Update(System.Int32,WebApiPaulovnija.DTO.AzurirajStrojDTO)">
+            <summary>
+            Ažurira postojeći stroj u bazi podataka.
+            </summary>
+            <param name="id">ID stroja koji se ažurira.</param>
+            <param name="azurirajStrojDTO">DTO objekt sa novim podacima stroja.</param>
+            <returns>Status ažuriranja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.StrojeviController.Delete(System.Int32)">
+            <summary>
+            Briše stroj iz baze podataka.
+            </summary>
+            <param name="id">ID stroja koji se briše.</param>
+            <returns>Status brisanja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.ZadatakController.Get">
+            <summary>
+            Vraća sve zadatke iz baze podataka.
+            </summary>
+            <returns>Lista zadataka.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.ZadatakController.GetById(System.Int32)">
+            <summary>
+            Vraća zadatak po ID-u.
+            </summary>
+            <param name="id">ID zadatka.</param>
+            <returns>Zadatak sa traženim ID-em.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.ZadatakController.Post(KreirajZadatakDTO)">
+            <summary>
+            Dodaje novi zadatak u bazu podataka.
+            </summary>
+            <param name="dto">DTO objekt za novi zadatak.</param>
+            <returns>Status rezultata unosa.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.ZadatakController.Put(System.Int32,AzurirajZadatakDTO)">
+            <summary>
+            Ažurira postojeći zadatak u bazi podataka.
+            </summary>
+            <param name="id">ID zadatka koji se ažurira.</param>
+            <param name="dto">DTO objekt sa novim podacima zadatka.</param>
+            <returns>Status ažuriranja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Controllers.ZadatakController.Delete(System.Int32)">
+            <summary>
+            Briše zadatak iz baze podataka.
+            </summary>
+            <param name="id">ID zadatka koji se briše.</param>
+            <returns>Status brisanja.</returns>
+        </member>
+        <member name="T:WebApiPaulovnija.Controllers.Models.RadniciList">
+            <summary>
+            Klasa koja predstavlja listu radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Controllers.Models.RadniciList.ListaRadnika">
+            <summary>
+            Lista radnika.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.AzurirajRadnikaDTO">
+            <summary>
+            DTO klasa za ažuriranje podataka o radniku.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRadnikaDTO.Ime">
+            <summary>
+            Ime radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRadnikaDTO.Prezime">
+            <summary>
+            Prezime radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRadnikaDTO.Godine">
+            <summary>
+            Godine starosti radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRadnikaDTO.Pozicija">
+            <summary>
+            Pozicija na kojoj radnik radi.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRadnikaDTO.Plata">
+            <summary>
+            Plata radnika.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.AzurirajRasadnikDTO">
+            <summary>
+            DTO klasa za ažuriranje informacija o rasadniku.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRasadnikDTO.ID_Rasadnika">
+            <summary>
+            Jedinstveni identifikator rasadnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRasadnikDTO.Naziv">
+            <summary>
+            Naziv rasadnika, ne može biti duži od 100 znakova.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRasadnikDTO.Lokacija">
+            <summary>
+            Lokacija rasadnika, ne može biti duža od 100 znakova.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRasadnikDTO.Povrsina">
+            <summary>
+            Površina rasadnika u kvadratnim metrima, mora biti pozitivna vrednost.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajRasadnikDTO.Datum_otvaranja">
+            <summary>
+            Datum otvaranja rasadnika.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.AzurirajSadnicuDTO">
+            <summary>
+            DTO klasa za ažuriranje informacija o sadnici.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajSadnicuDTO.ID_Sadnice">
+            <summary>
+            Jedinstveni identifikator sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajSadnicuDTO.Vrsta">
+            <summary>
+            Vrsta sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajSadnicuDTO.Visina">
+            <summary>
+            Visina sadnice u metrima.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajSadnicuDTO.Starost">
+            <summary>
+            Starost sadnice u godinama.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajSadnicuDTO.DatumSadnje">
+            <summary>
+            Datum sadnje sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajSadnicuDTO.ID_Rasadnika">
+            <summary>
+            Identifikator rasadnika u kojem se sadnica nalazi.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.AzurirajStrojDTO">
+            <summary>
+            DTO klasa za ažuriranje informacija o stroju.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajStrojDTO.ID_Stroja">
+            <summary>
+            Jedinstveni identifikator stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajStrojDTO.Marka">
+            <summary>
+            Marka stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajStrojDTO.Model">
+            <summary>
+            Model stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajStrojDTO.Godiste">
+            <summary>
+            Godina proizvodnje stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajStrojDTO.Tip">
+            <summary>
+            Tip stroja (npr. traktor, kombajn).
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajStrojDTO.Kapacitet_rezervoara">
+            <summary>
+            Kapacitet rezervoara u litrima.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.AzurirajStrojDTO.ID_Radnika">
+            <summary>
+            Identifikator radnika koji koristi stroj.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.KreirajRadnikaDTO">
+            <summary>
+            DTO klasa za kreiranje novog radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRadnikaDTO.Ime">
+            <summary>
+            Ime radnika. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRadnikaDTO.Prezime">
+            <summary>
+            Prezime radnika. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRadnikaDTO.Godine">
+            <summary>
+            Godine starosti radnika. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRadnikaDTO.Pozicija">
+            <summary>
+            Pozicija radnika na poslu. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRadnikaDTO.Plata">
+            <summary>
+            Plata radnika. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.KreirajRasadnikDTO">
+            <summary>
+            DTO klasa za kreiranje novog rasadnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRasadnikDTO.Naziv">
+            <summary>
+            Naziv rasadnika. Ne može biti duži od 100 znakova.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRasadnikDTO.Lokacija">
+            <summary>
+            Lokacija rasadnika. Ne može biti duža od 100 znakova.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRasadnikDTO.Povrsina">
+            <summary>
+            Površina rasadnika u kvadratnim metrima. Mora biti pozitivna vrednost.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajRasadnikDTO.Datum_otvaranja">
+            <summary>
+            Datum otvaranja rasadnika.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.KreirajSadnicuDTO">
+            <summary>
+            DTO klasa za kreiranje nove sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajSadnicuDTO.Vrsta">
+            <summary>
+            Vrsta sadnice (npr. drvo, biljka).
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajSadnicuDTO.Visina">
+            <summary>
+            Visina sadnice u metrima.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajSadnicuDTO.Starost">
+            <summary>
+            Starost sadnice u godinama.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajSadnicuDTO.Datum_sadnje">
+            <summary>
+            Datum sadnje sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajSadnicuDTO.ID_Rasadnika">
+            <summary>
+            Identifikator rasadnika u kojem se sadnica nalazi.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.KreirajStrojDTO">
+            <summary>
+            DTO klasa za kreiranje novog stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajStrojDTO.Marka">
+            <summary>
+            Marka stroja (npr. John Deere, Case IH).
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajStrojDTO.Model">
+            <summary>
+            Model stroja (npr. 5055E).
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajStrojDTO.Godiste">
+            <summary>
+            Godina proizvodnje stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajStrojDTO.Tip">
+            <summary>
+            Tip stroja (npr. traktor, kombajn).
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajStrojDTO.Kapacitet_rezervoara">
+            <summary>
+            Kapacitet rezervoara u litrima.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.KreirajStrojDTO.ID_Radnika">
+            <summary>
+            Identifikator radnika koji koristi stroj.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.DTO.ZadatakDTO">
+            <summary>
+            DTO klasa koja predstavlja zadatak.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.ZadatakDTO.ID_Zadatka">
+            <summary>
+            Jedinstveni identifikator zadatka.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.ZadatakDTO.Opis">
+            <summary>
+            Opis zadatka.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.ZadatakDTO.Datum_pocetka">
+            <summary>
+            Datum kada zadatak počinje.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.ZadatakDTO.Datum_zavrsetka">
+            <summary>
+            Datum kada zadatak treba da bude završen.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.ZadatakDTO.Status_Zadatka">
+            <summary>
+            Status zadatka (npr. u toku, završen).
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.DTO.ZadatakDTO.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika koji je dodeljen zadatku.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.Mapping.MappingProfile">
+            <summary>
+            Konfiguracija mapiranja između modela i DTO klasa.
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Mapping.MappingProfile.#ctor">
+            <summary>
+            Inicijalizuje novu instancu <see cref="T:WebApiPaulovnija.Mapping.MappingProfile"/> klase.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.Models.Radnik">
+            <summary>
+            Klasa koja predstavlja radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.Ime">
+            <summary>
+            Ime radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.Prezime">
+            <summary>
+            Prezime radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.Godine">
+            <summary>
+            Godine starosti radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.Pozicija">
+            <summary>
+            Pozicija radnika na poslu.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.Plata">
+            <summary>
+            Plata radnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.Zadaci">
+            <summary>
+            Lista zadataka dodeljenih radniku.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Radnik.Strojevi">
+            <summary>
+            Lista strojeva kojima upravlja radnik.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.Models.Rasadnik">
+            <summary>
+            Klasa koja predstavlja rasadnik.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Rasadnik.ID_Rasadnika">
+            <summary>
+            Jedinstveni identifikator rasadnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Rasadnik.Naziv">
+            <summary>
+            Naziv rasadnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Rasadnik.Lokacija">
+            <summary>
+            Lokacija rasadnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Rasadnik.Povrsina">
+            <summary>
+            Površina rasadnika u hektarima.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Rasadnik.Datum_otvaranja">
+            <summary>
+            Datum otvaranja rasadnika.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Rasadnik.Sadnice">
+            <summary>
+            Lista sadnica u rasadniku.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.Models.Sadnica">
+            <summary>
+            Klasa koja predstavlja sadnicu.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Sadnica.ID_Sadnice">
+            <summary>
+            Jedinstveni identifikator sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Sadnica.Vrsta">
+            <summary>
+            Vrsta sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Sadnica.Visina">
+            <summary>
+            Visina sadnice u metrima.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Sadnica.Starost">
+            <summary>
+            Starost sadnice u godinama.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Sadnica.Datum_sadnje">
+            <summary>
+            Datum sadnje sadnice.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Sadnica.ID_Rasadnika">
+            <summary>
+            Jedinstveni identifikator rasadnika kojem pripada sadnica.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Sadnica.Rasadnik">
+            <summary>
+            Referenca na rasadnik kojem sadnica pripada.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.Models.Stroj">
+            <summary>
+            Klasa koja predstavlja stroj.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.ID_Stroja">
+            <summary>
+            Jedinstveni identifikator stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.Marka">
+            <summary>
+            Marka stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.Model">
+            <summary>
+            Model stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.Godiste">
+            <summary>
+            Godina proizvodnje stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.Tip">
+            <summary>
+            Tip stroja.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.Kapacitet_rezervoara">
+            <summary>
+            Kapacitet rezervoara stroja u litrima.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika koji upravlja strojem.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Stroj.Radnik">
+            <summary>
+            Referenca na radnika koji upravlja strojem.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.Models.Zadatak">
+            <summary>
+            Klasa koja predstavlja zadatak.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Zadatak.ID_Zadatka">
+            <summary>
+            Jedinstveni identifikator zadatka.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Zadatak.Opis">
+            <summary>
+            Opis zadatka.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Zadatak.Datum_pocetka">
+            <summary>
+            Datum početka zadatka.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Zadatak.Datum_zavrsetka">
+            <summary>
+            Datum završetka zadatka.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Zadatak.Status_Zadatka">
+            <summary>
+            Status zadatka (npr. "u toku", "završen").
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Zadatak.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika koji je dodeljen zadatku.
+            </summary>
+        </member>
+        <member name="P:WebApiPaulovnija.Models.Zadatak.Radnik">
+            <summary>
+            Referenca na radnika koji je dodeljen zadatku.
+            </summary>
+        </member>
+        <member name="T:WebApiPaulovnija.Services.IRadnikService">
+            <summary>
+            Interfejs za radne operacije vezane za radnike.
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRadnikService.CreateRadnikAsync(WebApiPaulovnija.Models.Radnik)">
+            <summary>
+            Kreira novog radnika asinhrono.
+            </summary>
+            <param name="radnik">Instanca radnika koja se kreira.</param>
+            <returns>Instanca novog radnika.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRadnikService.GetAllRadniciAsync">
+            <summary>
+            Dohvata sve radnike asinhrono.
+            </summary>
+            <returns>Lista svih radnika.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRadnikService.GetRadnikByIdAsync(System.Int32)">
+            <summary>
+            Dohvata radnika po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator radnika.</param>
+            <returns>Instanca radnika ili null ako nije pronađen.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRadnikService.UpdateRadnikAsync(WebApiPaulovnija.Models.Radnik)">
+            <summary>
+            Ažurira podatke radnika asinhrono.
+            </summary>
+            <param name="radnik">Instanca radnika sa ažuriranim podacima.</param>
+            <returns>True ako je ažuriranje uspešno, inače False.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRadnikService.DeleteRadnikAsync(System.Int32)">
+            <summary>
+            Briše radnika po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator radnika koji se briše.</param>
+            <returns>True ako je brisanje uspešno, inače False.</returns>
+        </member>
+        <member name="T:WebApiPaulovnija.Services.IRasadnikService">
+            <summary>
+            Interfejs za radne operacije vezane za rasadnike.
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRasadnikService.GetAllRasadniciAsync">
+            <summary>
+            Dohvata sve rasadnike asinhrono.
+            </summary>
+            <returns>Lista DTO objekata svih rasadnika.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRasadnikService.GetRasadnikByIdAsync(System.Int32)">
+            <summary>
+            Dohvata rasadnik po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator rasadnika.</param>
+            <returns>DTO objekat rasadnika ili null ako nije pronađen.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRasadnikService.CreateRasadnikAsync(WebApiPaulovnija.DTO.KreirajRasadnikDTO)">
+            <summary>
+            Kreira novi rasadnik asinhrono.
+            </summary>
+            <param name="rasadnikDTO">DTO objekat rasadnika koji se kreira.</param>
+            <returns>DTO objekat novog rasadnika.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRasadnikService.UpdateRasadnikAsync(WebApiPaulovnija.DTO.AzurirajRasadnikDTO)">
+            <summary>
+            Ažurira podatke rasadnika asinhrono.
+            </summary>
+            <param name="rasadnik">DTO objekat rasadnika sa ažuriranim podacima.</param>
+            <returns>True ako je ažuriranje uspešno, inače False.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IRasadnikService.DeleteRasadnikAsync(System.Int32)">
+            <summary>
+            Briše rasadnik po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator rasadnika koji se briše.</param>
+            <returns>True ako je brisanje uspešno, inače False.</returns>
+        </member>
+        <member name="T:WebApiPaulovnija.Services.ISadnicaService">
+            <summary>
+            Interfejs za radne operacije vezane za sadnice.
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.ISadnicaService.GetAllAsync">
+            <summary>
+            Dohvata sve sadnice asinhrono.
+            </summary>
+            <returns>Lista DTO objekata svih sadnica.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.ISadnicaService.GetByIdAsync(System.Int32)">
+            <summary>
+            Dohvata sadnicu po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator sadnice.</param>
+            <returns>DTO objekat sadnice ili null ako nije pronađen.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.ISadnicaService.AddAsync(WebApiPaulovnija.DTO.KreirajSadnicuDTO)">
+            <summary>
+            Dodaje novu sadnicu asinhrono.
+            </summary>
+            <param name="sadnicaDTO">DTO objekat sadnice koja se dodaje.</param>
+            <returns>DTO objekat novog sadnice.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.ISadnicaService.UpdateAsync(WebApiPaulovnija.DTO.AzurirajSadnicuDTO)">
+            <summary>
+            Ažurira podatke sadnice asinhrono.
+            </summary>
+            <param name="sadnicaDTO">DTO objekat sadnice sa ažuriranim podacima.</param>
+            <returns>True ako je ažuriranje uspešno, inače False.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.ISadnicaService.DeleteAsync(System.Int32)">
+            <summary>
+            Briše sadnicu po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator sadnice koja se briše.</param>
+            <returns>True ako je brisanje uspešno, inače False.</returns>
+        </member>
+        <member name="T:WebApiPaulovnija.Services.IStrojService">
+            <summary>
+            Interfejs za radne operacije vezane za strojeve.
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IStrojService.GetAllAsync">
+            <summary>
+            Dohvata sve strojeve asinhrono.
+            </summary>
+            <returns>Lista svih strojeva.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IStrojService.GetByIdAsync(System.Int32)">
+            <summary>
+            Dohvata stroj po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator stroja.</param>
+            <returns>Instanca stroja ili null ako nije pronađena.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IStrojService.AddAsync(WebApiPaulovnija.Models.Stroj)">
+            <summary>
+            Dodaje novi stroj asinhrono.
+            </summary>
+            <param name="stroj">Instanca stroja koja se dodaje.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IStrojService.UpdateAsync(WebApiPaulovnija.Models.Stroj)">
+            <summary>
+            Ažurira podatke stroja asinhrono.
+            </summary>
+            <param name="stroj">Instanca stroja sa ažuriranim podacima.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.IStrojService.DeleteAsync(System.Int32)">
+            <summary>
+            Briše stroj po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator stroja koji se briše.</param>
+        </member>
+        <member name="T:WebApiPaulovnija.Services.RasadnikService">
+            <summary>
+            Servisna klasa za upravljanje rasadnicima (Rasadnik).
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.RasadnikService.#ctor(PaulovnijaContext)">
+            <summary>
+            Inicijalizira novu instancu <see cref="T:WebApiPaulovnija.Services.RasadnikService"/> klase.
+            </summary>
+            <param name="context">Kontext baze podataka koji se koristi za interakciju s bazom podataka.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.RasadnikService.GetAllRasadniciAsync">
+            <summary>
+            Dohvaća sve rasadnike kao listu <see cref="T:RasadnikDTO"/>.
+            </summary>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži kolekciju <see cref="T:RasadnikDTO"/>.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.RasadnikService.GetRasadnikByIdAsync(System.Int32)">
+            <summary>
+            Dohvaća rasadnik prema njegovom ID-u.
+            </summary>
+            <param name="id">ID rasadnika koji treba dohvatiti.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži <see cref="T:RasadnikDTO"/> za određeni rasadnik, ili null ako nije pronađen.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.RasadnikService.CreateRasadnikAsync(WebApiPaulovnija.DTO.KreirajRasadnikDTO)">
+            <summary>
+            Stvara novi rasadnik iz navedenog <see cref="T:WebApiPaulovnija.DTO.KreirajRasadnikDTO"/>.
+            </summary>
+            <param name="rasadnikDTO">Podaci o novom rasadniku.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži novi stvoreni <see cref="T:RasadnikDTO"/>.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.RasadnikService.UpdateRasadnikAsync(WebApiPaulovnija.DTO.AzurirajRasadnikDTO)">
+            <summary>
+            Ažurira rasadnik na temelju navedenog <see cref="T:WebApiPaulovnija.DTO.AzurirajRasadnikDTO"/>.
+            </summary>
+            <param name="rasadnikDTO">Podaci za ažuriranje rasadnika.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska je true ako je ažuriranje uspješno, inače false.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.RasadnikService.DeleteRasadnikAsync(System.Int32)">
+            <summary>
+            Briše rasadnik prema njegovom ID-u.
+            </summary>
+            <param name="id">ID rasadnika koji treba izbrisati.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska je true ako je brisanje uspješno, inače false.</returns>
+        </member>
+        <member name="T:WebApiPaulovnija.Services.SadnicaService">
+            <summary>
+            Servisna klasa za upravljanje sadnicama (Sadnica).
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.SadnicaService.#ctor(PaulovnijaContext)">
+            <summary>
+            Inicijalizira novu instancu <see cref="T:WebApiPaulovnija.Services.SadnicaService"/> klase.
+            </summary>
+            <param name="context">Kontext baze podataka koji se koristi za interakciju s bazom podataka.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.SadnicaService.GetAllAsync">
+            <summary>
+            Dohvaća sve sadnice kao listu <see cref="T:SadnicaDTO"/>.
+            </summary>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži kolekciju <see cref="T:SadnicaDTO"/>.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.SadnicaService.GetByIdAsync(System.Int32)">
+            <summary>
+            Dohvaća sadnicu prema njenom ID-u.
+            </summary>
+            <param name="id">ID sadnice koja se treba dohvatiti.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži <see cref="T:SadnicaDTO"/> za određenu sadnicu, ili null ako nije pronađena.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.SadnicaService.AddAsync(WebApiPaulovnija.DTO.KreirajSadnicuDTO)">
+            <summary>
+            Dodaje novu sadnicu iz navedenog <see cref="T:WebApiPaulovnija.DTO.KreirajSadnicuDTO"/>.
+            </summary>
+            <param name="sadnicaDTO">Podaci o novoj sadnici.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži novu stvorenu <see cref="T:SadnicaDTO"/>.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.SadnicaService.UpdateAsync(WebApiPaulovnija.DTO.AzurirajSadnicuDTO)">
+            <summary>
+            Ažurira sadnicu na temelju navedenog <see cref="T:WebApiPaulovnija.DTO.AzurirajSadnicuDTO"/>.
+            </summary>
+            <param name="sadnicaDTO">Podaci za ažuriranje sadnice.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska je true ako je ažuriranje uspješno, inače false.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.SadnicaService.DeleteAsync(System.Int32)">
+            <summary>
+            Briše sadnicu prema njenom ID-u.
+            </summary>
+            <param name="id">ID sadnice koja se treba izbrisati.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska je true ako je brisanje uspješno, inače false.</returns>
+        </member>
+        <member name="T:WebApiPaulovnija.Services.StrojService">
+            <summary>
+            Servisna klasa za upravljanje strojevima (Stroj).
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.StrojService.#ctor(PaulovnijaContext)">
+            <summary>
+            Inicijalizira novu instancu <see cref="T:WebApiPaulovnija.Services.StrojService"/> klase.
+            </summary>
+            <param name="context">Kontext baze podataka koji se koristi za interakciju s bazom podataka.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.StrojService.GetAllAsync">
+            <summary>
+            Dohvaća sve strojeve kao listu <see cref="T:WebApiPaulovnija.Models.Stroj"/>.
+            </summary>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži kolekciju <see cref="T:WebApiPaulovnija.Models.Stroj"/>.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.StrojService.GetByIdAsync(System.Int32)">
+            <summary>
+            Dohvaća stroj prema njegovom ID-u.
+            </summary>
+            <param name="id">ID stroja koji se treba dohvatiti.</param>
+            <returns>Task koji predstavlja asinkronu operaciju. Rezultat taska sadrži <see cref="T:WebApiPaulovnija.Models.Stroj"/> za određeni stroj, ili null ako nije pronađen.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.StrojService.AddAsync(WebApiPaulovnija.Models.Stroj)">
+            <summary>
+            Dodaje novi stroj u bazu podataka.
+            </summary>
+            <param name="stroj">Instanca <see cref="T:WebApiPaulovnija.Models.Stroj"/> koja se dodaje.</param>
+            <returns>Task koji predstavlja asinkronu operaciju.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.StrojService.UpdateAsync(WebApiPaulovnija.Models.Stroj)">
+            <summary>
+            Ažurira postojeći stroj u bazi podataka.
+            </summary>
+            <param name="stroj">Instanca <see cref="T:WebApiPaulovnija.Models.Stroj"/> koja se ažurira.</param>
+            <returns>Task koji predstavlja asinkronu operaciju.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Services.StrojService.DeleteAsync(System.Int32)">
+            <summary>
+            Briše stroj prema njegovom ID-u iz baze podataka.
+            </summary>
+            <param name="id">ID stroja koji se treba izbrisati.</param>
+            <returns>Task koji predstavlja asinkronu operaciju.</returns>
+        </member>
+        <member name="T:WebApiPaulovnija.Service.RadnikService">
+            <summary>
+            Implementacija servisa za upravljanje radnicima.
+            </summary>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.#ctor(PaulovnijaContext)">
+            <summary>
+            Inicijalizira novu instancu <see cref="T:WebApiPaulovnija.Service.RadnikService"/> klase.
+            </summary>
+            <param name="context">Kontekst baze podataka za pristup podacima o radnicima.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.GetAllRadnici">
+            <summary>
+            Vraća sve radnike iz baze podataka.
+            </summary>
+            <returns>Lista svih radnika.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.GetRadnikById(System.Int32)">
+            <summary>
+            Vraća radnika na temelju ID-a.
+            </summary>
+            <param name="id">ID radnika koji se želi pretražiti.</param>
+            <returns>Radnik ako je pronađen, inače null.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.CreateRadnik(WebApiPaulovnija.Models.Radnik)">
+            <summary>
+            Dodaje novog radnika u bazu podataka.
+            </summary>
+            <param name="radnik">Objekt radnika koji se dodaje.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.UpdateRadnik(WebApiPaulovnija.Models.Radnik)">
+            <summary>
+            Ažurira postojećeg radnika u bazi podataka.
+            </summary>
+            <param name="radnik">Objekt radnika koji sadrži ažurirane podatke.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.DeleteRadnik(WebApiPaulovnija.Models.Radnik)">
+            <summary>
+            Briše radnika iz baze podataka.
+            </summary>
+            <param name="radnik">Objekt radnika koji se briše.</param>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.CreateRadnikAsync(WebApiPaulovnija.Models.Radnik)">
+            <summary>
+            Asinkrono dodaje novog radnika u bazu podataka.
+            </summary>
+            <param name="radnik">Objekt radnika koji se dodaje.</param>
+            <returns>Vraća asinkroni rezultat operacije dodavanja.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.GetAllRadniciAsync">
+            <summary>
+            Asinkrono vraća sve radnike iz baze podataka.
+            </summary>
+            <returns>Lista svih radnika.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.GetRadnikByIdAsync(System.Int32)">
+            <summary>
+            Asinkrono vraća radnika na temelju ID-a.
+            </summary>
+            <param name="id">ID radnika koji se želi pretražiti.</param>
+            <returns>Radnik ako je pronađen, inače null.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.UpdateRadnikAsync(WebApiPaulovnija.Models.Radnik)">
+            <summary>
+            Asinkrono ažurira postojećeg radnika u bazi podataka.
+            </summary>
+            <param name="radnik">Objekt radnika koji sadrži ažurirane podatke.</param>
+            <returns>True ako je ažuriranje uspješno, inače false.</returns>
+        </member>
+        <member name="M:WebApiPaulovnija.Service.RadnikService.DeleteRadnikAsync(System.Int32)">
+            <summary>
+            Asinkrono briše radnika iz baze podataka na temelju ID-a.
+            </summary>
+            <param name="id">ID radnika koji se briše.</param>
+            <returns>True ako je radnik uspješno obrisan, inače false.</returns>
+        </member>
+        <member name="P:AzurirajZadatakDTO.ID_Zadatka">
+            <summary>
+            Jedinstveni identifikator zadatka koji se ažurira.
+            </summary>
+        </member>
+        <member name="P:AzurirajZadatakDTO.Opis">
+            <summary>
+            Opis zadatka. Ovaj atribut je obavezan.
+            </summary>
+        </member>
+        <member name="P:AzurirajZadatakDTO.Datum_pocetka">
+            <summary>
+            Datum kada zadatak počinje. Ovaj atribut je obavezan.
+            </summary>
+        </member>
+        <member name="P:AzurirajZadatakDTO.Datum_zavrsetka">
+            <summary>
+            Datum kada zadatak treba da bude završen. Ovaj atribut je obavezan.
+            </summary>
+        </member>
+        <member name="P:AzurirajZadatakDTO.Status_Zadatka">
+            <summary>
+            Status zadatka (npr. u toku, završen). Ovaj atribut je obavezan.
+            </summary>
+        </member>
+        <member name="P:AzurirajZadatakDTO.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika kome je zadatak dodeljen. Ovaj atribut je obavezan.
+            </summary>
+        </member>
+        <member name="P:KreirajZadatakDTO.Opis">
+            <summary>
+            Opis zadatka. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:KreirajZadatakDTO.Datum_pocetka">
+            <summary>
+            Datum kada zadatak počinje. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:KreirajZadatakDTO.Datum_zavrsetka">
+            <summary>
+            Datum kada zadatak treba da bude završen. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:KreirajZadatakDTO.Status_Zadatka">
+            <summary>
+            Status zadatka (npr. u toku, završen). Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="P:KreirajZadatakDTO.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika kome je zadatak dodeljen. Ovo polje je obavezno.
+            </summary>
+        </member>
+        <member name="T:RadnikDTO">
+            <summary>
+            DTO klasa koja predstavlja radnika.
+            </summary>
+        </member>
+        <member name="P:RadnikDTO.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika.
+            </summary>
+        </member>
+        <member name="P:RadnikDTO.Ime">
+            <summary>
+            Ime radnika.
+            </summary>
+        </member>
+        <member name="P:RadnikDTO.Prezime">
+            <summary>
+            Prezime radnika.
+            </summary>
+        </member>
+        <member name="P:RadnikDTO.Godine">
+            <summary>
+            Godine starosti radnika.
+            </summary>
+        </member>
+        <member name="P:RadnikDTO.Pozicija">
+            <summary>
+            Pozicija radnika na poslu.
+            </summary>
+        </member>
+        <member name="P:RadnikDTO.Plata">
+            <summary>
+            Plata radnika.
+            </summary>
+        </member>
+        <member name="T:RasadnikDTO">
+            <summary>
+            DTO klasa koja predstavlja rasadnik.
+            </summary>
+        </member>
+        <member name="P:RasadnikDTO.ID_Rasadnika">
+            <summary>
+            Jedinstveni identifikator rasadnika.
+            </summary>
+        </member>
+        <member name="P:RasadnikDTO.Naziv">
+            <summary>
+            Naziv rasadnika.
+            </summary>
+        </member>
+        <member name="P:RasadnikDTO.Lokacija">
+            <summary>
+            Lokacija rasadnika.
+            </summary>
+        </member>
+        <member name="P:RasadnikDTO.Povrsina">
+            <summary>
+            Površina rasadnika u kvadratnim metrima.
+            </summary>
+        </member>
+        <member name="P:RasadnikDTO.Datum_otvaranja">
+            <summary>
+            Datum otvaranja rasadnika.
+            </summary>
+        </member>
+        <member name="T:SadnicaDTO">
+            <summary>
+            DTO klasa koja predstavlja sadnicu.
+            </summary>
+        </member>
+        <member name="P:SadnicaDTO.ID_Sadnice">
+            <summary>
+            Jedinstveni identifikator sadnice.
+            </summary>
+        </member>
+        <member name="P:SadnicaDTO.Vrsta">
+            <summary>
+            Vrsta sadnice (npr. drvo, biljka).
+            </summary>
+        </member>
+        <member name="P:SadnicaDTO.Visina">
+            <summary>
+            Visina sadnice u metrima.
+            </summary>
+        </member>
+        <member name="P:SadnicaDTO.Starost">
+            <summary>
+            Starost sadnice u godinama.
+            </summary>
+        </member>
+        <member name="P:SadnicaDTO.Datum_sadnje">
+            <summary>
+            Datum sadnje sadnice.
+            </summary>
+        </member>
+        <member name="P:SadnicaDTO.ID_Rasadnika">
+            <summary>
+            Identifikator rasadnika u kojem se sadnica nalazi.
+            </summary>
+        </member>
+        <member name="T:StrojDTO">
+            <summary>
+            DTO klasa koja predstavlja stroj.
+            </summary>
+        </member>
+        <member name="P:StrojDTO.ID_Stroja">
+            <summary>
+            Jedinstveni identifikator stroja.
+            </summary>
+        </member>
+        <member name="P:StrojDTO.Marka">
+            <summary>
+            Marka stroja (npr. John Deere, Case).
+            </summary>
+        </member>
+        <member name="P:StrojDTO.Model">
+            <summary>
+            Model stroja (npr. 1234, XYZ).
+            </summary>
+        </member>
+        <member name="P:StrojDTO.Godiste">
+            <summary>
+            Godina proizvodnje stroja.
+            </summary>
+        </member>
+        <member name="P:StrojDTO.Tip">
+            <summary>
+            Tip stroja (npr. traktorski, berba).
+            </summary>
+        </member>
+        <member name="P:StrojDTO.Kapacitet_rezervoara">
+            <summary>
+            Kapacitet rezervoara u litrama.
+            </summary>
+        </member>
+        <member name="P:StrojDTO.ID_Radnika">
+            <summary>
+            Jedinstveni identifikator radnika koji je dodeljen ovom stroju.
+            </summary>
+        </member>
+        <member name="M:PaulovnijaContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{PaulovnijaContext})">
+            <summary>
+            Inicijalizira novu instancu <see cref="T:PaulovnijaContext"/> klase.
+            </summary>
+            <param name="options">Opcije koje će koristiti <see cref="T:Microsoft.EntityFrameworkCore.DbContext"/>.</param>
+        </member>
+        <member name="P:PaulovnijaContext.Radnici">
+            <summary>
+            Dobiva ili postavlja kolekciju radnika (Radnici).
+            </summary>
+        </member>
+        <member name="P:PaulovnijaContext.Zadaci">
+            <summary>
+            Dobiva ili postavlja kolekciju zadataka (Zadaci).
+            </summary>
+        </member>
+        <member name="P:PaulovnijaContext.Sadnice">
+            <summary>
+            Dobiva ili postavlja kolekciju sadnica (Sadnice).
+            </summary>
+        </member>
+        <member name="P:PaulovnijaContext.Strojevi">
+            <summary>
+            Dobiva ili postavlja kolekciju strojeva (Strojevi).
+            </summary>
+        </member>
+        <member name="P:PaulovnijaContext.Rasadnik">
+            <summary>
+            Dobiva ili postavlja kolekciju rasadnika (Rasadnik).
+            </summary>
+        </member>
+        <member name="M:PaulovnijaContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Konfigurira model prilikom kreiranja konteksta.
+            </summary>
+            <param name="modelBuilder">Graditelj koji se koristi za konstruiranje modela za kontekst.</param>
+        </member>
+        <member name="M:IZadatakService.CreateZadatakAsync(KreirajZadatakDTO)">
+            <summary>
+            Kreira novi zadatak asinhrono.
+            </summary>
+            <param name="dto">DTO objekat sa podacima za kreiranje zadatka.</param>
+            <returns>DTO objekat novog zadatka.</returns>
+        </member>
+        <member name="M:IZadatakService.UpdateZadatakAsync(AzurirajZadatakDTO)">
+            <summary>
+            Ažurira postojeći zadatak asinhrono.
+            </summary>
+            <param name="dto">DTO objekat sa ažuriranim podacima zadatka.</param>
+            <returns>True ako je ažuriranje uspešno, inače False.</returns>
+        </member>
+        <member name="M:IZadatakService.DeleteZadatakAsync(System.Int32)">
+            <summary>
+            Briše zadatak po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator zadatka koji se briše.</param>
+            <returns>True ako je brisanje uspešno, inače False.</returns>
+        </member>
+        <member name="M:IZadatakService.GetAllZadaciAsync">
+            <summary>
+            Dohvata sve zadatke asinhrono.
+            </summary>
+            <returns>Lista DTO objekata svih zadataka.</returns>
+        </member>
+        <member name="M:IZadatakService.GetZadatakByIdAsync(System.Int32)">
+            <summary>
+            Dohvata zadatak po ID-ju asinhrono.
+            </summary>
+            <param name="id">Jedinstveni identifikator zadatka.</param>
+            <returns>DTO objekat zadatka ili null ako nije pronađen.</returns>
+        </member>
+        <member name="M:ZadatakService.#ctor(PaulovnijaContext,AutoMapper.IMapper)">
+            <summary>
+            Inicijalizira novu instancu <see cref="T:ZadatakService"/> klase.
+            </summary>
+            <param name="context">Kontekst baze podataka za pristup bazi.</param>
+            <param name="mapper">Instanca AutoMapper-a za mapiranje između entiteta i DTO-a.</param>
+        </member>
+        <member name="M:ZadatakService.CreateZadatakAsync(KreirajZadatakDTO)">
+            <summary>
+            Kreira novi zadatak (Zadatak).
+            </summary>
+            <param name="dto">DTO koji sadrži podatke o zadatku.</param>
+            <returns>Kreirani zadatak kao <see cref="T:WebApiPaulovnija.DTO.ZadatakDTO"/>.</returns>
+            <exception cref="T:System.Exception">Baca se kada navedeni radnik ne postoji.</exception>
+        </member>
+        <member name="M:ZadatakService.UpdateZadatakAsync(AzurirajZadatakDTO)">
+            <summary>
+            Ažurira postojeći zadatak (Zadatak).
+            </summary>
+            <param name="dto">DTO koji sadrži ažurirane podatke o zadatku.</param>
+            <returns>True ako je ažuriranje uspješno; inače, false.</returns>
+        </member>
+        <member name="M:ZadatakService.DeleteZadatakAsync(System.Int32)">
+            <summary>
+            Briše zadatak (Zadatak) prema njegovom ID-u.
+            </summary>
+            <param name="id">ID zadatka koji treba obrisati.</param>
+            <returns>True ako je zadatak uspješno obrisan; inače, false.</returns>
+        </member>
+        <member name="M:ZadatakService.GetAllZadaciAsync">
+            <summary>
+            Dohvaća sve zadatke (Zadaci).
+            </summary>
+            <returns>Lista zadataka kao <see cref="T:System.Collections.Generic.List`1"/>.</returns>
+        </member>
+        <member name="M:ZadatakService.GetZadatakByIdAsync(System.Int32)">
+            <summary>
+            Dohvaća zadatak (Zadatak) prema njegovom ID-u.
+            </summary>
+            <param name="id">ID zadatka koji treba dohvatiti.</param>
+            <returns>Zadatak kao <see cref="T:WebApiPaulovnija.DTO.ZadatakDTO"/>.</returns>
+        </member>
+    </members>
+</doc>
