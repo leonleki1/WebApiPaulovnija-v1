@@ -1,3 +1,6 @@
+<div style="text-align: center;">
+    <img src="https://media.giphy.com/media/kxMQXnH7ucS9q/giphy.gif" alt="Drvo koje raste" width="300" />
+</div>
 <a name='assembly'></a>
 # WebApiPaulovnija
 
